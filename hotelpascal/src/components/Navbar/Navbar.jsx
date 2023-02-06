@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">Logo</div>
       <ul className="navbar-links">
-        {["Home", "Rooms", "Gallery", "Contact", "About"].map((item) => (
+        {["Home", "Rooms", "About", "Gallery", "Contact"].map((item) => (
           <li className="">
             <div />
             <a href="/">{item}</a>
