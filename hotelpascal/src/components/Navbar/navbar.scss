@@ -29,9 +29,28 @@
   p {
     margin: 5px;
 
+    // a {
+    //   text-decoration: none;
+    //   color: black;
+    // }
+
     a {
+      color: var(--black-color);
       text-decoration: none;
-      color: black;
+      flex-direction: column;
+      text-transform: uppercase;
+      font-weight: 500;
+      transition: all 0.1s ease-in-out;
+
+      &:hover {
+        color: var(--secondary-color);
+      }
+    }
+
+    &:hover {
+      div {
+        background: var(--secondary-color);
+      }
     }
   }
 
