@@ -7,11 +7,21 @@ import "./navbar.scss";
 const Menu = () => {
   return (
     <div>
-      <p id="#Home">Home</p>
-      <p id="#Rooms">Rooms</p>
-      <p id="#About">About</p>
-      <p id="#Gallery">Gallery</p>
-      <p if="#Contact"></p>
+      <p>
+        <a href="#home">Home</a>
+      </p>
+      <p>
+        <a href="#rooms">Rooms</a>
+      </p>
+      <p>
+        <a href="#about">About</a>
+      </p>
+      <p>
+        <a href="#gallery">Gallery</a>
+      </p>
+      <p>
+        <a href="#contact">Contact</a>
+      </p>
     </div>
   );
 };
