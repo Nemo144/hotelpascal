@@ -6,7 +6,7 @@ import "./navbar.scss";
 
 const Menu = () => {
   return (
-    <div>
+    <>
       <p>
         <a href="#home">Home</a>
       </p>
@@ -22,7 +22,7 @@ const Menu = () => {
       <p>
         <a href="#contact">Contact</a>
       </p>
-    </div>
+    </>
   );
 };
 
@@ -40,7 +40,7 @@ const Navbar = () => {
         ))}
       </ul> */}
       <div className="navbar-links">
-        <Menu />
+        <Menu className="" />
       </div>
 
       <div className="navbar-menu">
