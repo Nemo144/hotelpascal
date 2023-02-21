@@ -31,14 +31,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">Logo</div>
-      {/* <ul className="navbar-links">
-        {["Home", "Rooms", "About", "Gallery", "Contact"].map((item) => (
-          <li className="">
-            <div />
-            <a href="/">{item}</a>
-          </li>
-        ))}
-      </ul> */}
+
       <div className="navbar-links">
         <Menu className="" />
       </div>
